@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 30
@@ -45,4 +46,7 @@ dependencies {
 
     // Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.3.0"
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
 }
